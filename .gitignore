@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Build
+dist/
+*.tsbuildinfo
+
+# Outils / config locale
+.kiro/
+.opencode/
+.vscode/
+.idea/
+bin/
+
+# Sorties du crawler
+crawled/
+docs/
+.keyscan-crawl/
+
+# Notes de dev
+dev-notes/
+
+# Tests
+tests/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

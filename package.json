@@ -1,0 +1,24 @@
+{
+  "name": "keyscan-crawler",
+  "version": "0.1.0",
+  "description": "URL crawler with preflight check, discovery and scope-aware BFS",
+  "type": "module",
+  "bin": {
+    "keyscan-crawl": "./bin/keyscan-crawl.cmd"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "linkedom": "0.18.9"
+  },
+  "devDependencies": {
+    "tsx": "4.19.4",
+    "typescript": "5.7.3",
+    "vitest": "3.1.1",
+    "@types/node": "22.13.10"
+  }
+}
